@@ -138,7 +138,6 @@ define(["require", "exports", "lodash/isString", "lodash/invoke", "react", "sema
             if (inline) {
                 return renderPicker();
             }
-            console.log('amd')
 
             return (React.createElement(React.Fragment, null,
                 inputElement,

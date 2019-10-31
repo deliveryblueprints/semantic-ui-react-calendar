@@ -138,7 +138,6 @@ var InputView = /** @class */ (function (_super) {
         if (inline) {
             return renderPicker();
         }
-        console.log('commonjs')
 
         return (React.createElement(React.Fragment, null,
             inputElement,

@@ -126,7 +126,6 @@ var InputView = /** @class */ (function (_super) {
         if (inline) {
             return renderPicker();
         }
-        console.log('es6')
         return (React.createElement(React.Fragment, null,
             inputElement,
             !readOnly
